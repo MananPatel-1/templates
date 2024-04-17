@@ -10,7 +10,8 @@
 			"version": "${templateOption:dockerVersion}",
 			"enableNonRootDocker": "${templateOption:enableNonRootDocker}",
 			"moby": "${templateOption:moby}"
-		}
+		},
+		 "ghcr.io/devcontainers/features/php:1": {}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
